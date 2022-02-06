@@ -13,7 +13,7 @@ const Page = () => {
                         Dustin Ma
                     </Heading>
                 </Box>
-                <p>Software Engineer</p>
+                <p>Placeholder text biography day night up left down right.</p>
             </Box>
 
         </Container>
