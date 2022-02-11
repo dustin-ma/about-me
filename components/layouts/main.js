@@ -5,7 +5,7 @@ import Voxel from '../voxel'
 
 const Main = ({ children, router}) => {
     return (
-        <Box as="main" pb={8}> 
+        <Box as="main" pb={10}> 
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <title>Dustin Ma</title>
