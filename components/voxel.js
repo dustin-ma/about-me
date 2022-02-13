@@ -74,7 +74,7 @@ const Voxel = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/temp.glb', {
+      loadGLTFModel(scene, '/dustin_plane.glb', {
         receiveShadow: false,
         castShadow: false
       }).then(() => {
