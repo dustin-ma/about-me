@@ -18,10 +18,15 @@ const Page = () => {
             <Flex justifyContent="space-between" marginBottom="10px">
             
                 <Box>
-                
+                    <Flex>
                     <Heading as="h2" variant="page-title">
                         Dustin Ma
+                        
                     </Heading>
+                    <Heading as="h3" size="md" marginTop="6%" marginLeft="10px"> / 马腾骁</Heading>
+                    </Flex>
+                    
+
                     <Heading as="h3" size="sm">
                         Software Engineer
                     </Heading>
@@ -64,7 +69,7 @@ const Page = () => {
                 
                 <Paragraph>Hi there,
                  I am a final year Computer Science student 
-            studying at <Link href="https://google.com">Ryerson University</Link> in Toronto expecting to graduate in April 2022. I thrive to further develop my skills in order to
+            studying at <Link href="https://google.com">Ryerson University</Link> in Toronto expecting to graduate in April 2022. I strive to further develop my skills in order to
             articulate my ideas through meaningful work as a Software Engineer.
                 I am currently seeking entry level opportunities with a company that I can 
                 grow and learn with. Please feel free to check out my <Link href="https://google.com">work</Link> or <Link href="https://google.com">reach out</Link> to me.</Paragraph>

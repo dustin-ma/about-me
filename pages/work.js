@@ -13,7 +13,7 @@ const Work = () => {
             </Heading>
             <SimpleGrid columns={[1,1,2]} gap={6}>
                 <Section>
-                    <WorkGridItem id="test" title="SampleTitle" thumbnail={tempImg}>
+                    <WorkGridItem id="rockstar" title="Rockstar Music" thumbnail={tempImg}>
                         Text Here!
                     </WorkGridItem>
                 </Section>

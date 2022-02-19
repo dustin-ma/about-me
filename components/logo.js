@@ -5,10 +5,10 @@ import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
     display: inline-flex;
     align-items: center;
-    height: 30px;
+    height: 40px;
     line-height; 20px;
     padding: 10px;
 
@@ -23,14 +23,13 @@ const Logo = () => {
         <Link href="/">
             <a>
                 <LogoBox>
-                    <Image src={dmLogo} width={40} height={40} alt="logo"/>
+                    <Image src={dmLogo} width={30} height={30} alt="logo"/>
                     <Text 
                         color={useColorModeValue('gray.800', 'whiteAlpha.900')}
                         fontFamily='M PLUS Rounded 1c'
                         fontWeight='bold'
                         ml={3}>
-
-                            Test Text Here :D
+                            Dustin Ma
                         </Text>
                 </LogoBox>
             </a>

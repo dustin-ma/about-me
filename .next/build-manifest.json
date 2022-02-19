@@ -34,6 +34,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/work.js"
+    ],
+    "/work/rockstar": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/work/rockstar.js"
     ]
   },
   "ampFirstPages": []
