@@ -48,7 +48,7 @@ const Page = () => {
                         LinkedIn
                  </Button>
             </Link>
-            <Link href="httpw://www.google.ca" target="_blank">   
+            <Link href="https://drive.google.com/file/d/1etoU-ZTsKZ8ioLphrsAs9PpJZSgP-WiV/view?usp=sharing" target="_blank">   
                 <Button colorScheme='teal' leftIcon={<IoDocumentText />} size='sm' variant='ghost'>
                         Resume
                 </Button>

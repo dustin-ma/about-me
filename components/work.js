@@ -44,7 +44,7 @@ export const ButtonBox = () => (
 
 export const MenuButtonBox = () => (
   <Box align="center" my={4}>
-      <NextLink href="/work" scroll={false}>
+      <NextLink href="https://drive.google.com/file/d/1etoU-ZTsKZ8ioLphrsAs9PpJZSgP-WiV/view?usp=sharing" scroll={false}>
           <Button size="sm" mr={2} rightIcon={<IoDocumentText />} colorScheme="orange">
             Resume
           </Button>
