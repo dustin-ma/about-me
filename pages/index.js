@@ -1,10 +1,10 @@
-import {Container, Stack, Button, Flex, Box, Heading, Image, Link, useColorModeValue} from '@chakra-ui/react'
+import {Container, Stack, Button, Flex, Box, Heading, LinkOverlay, Link, useColorModeValue} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import NextLink from 'next/link'
 
-import { IoLogoGithub, IoLogoLinkedin, IoDocumentText, IoNewspaperOutline } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin, IoDocumentText, ChevronRightIcon } from 'react-icons/io5'
 
 
 
@@ -69,12 +69,23 @@ const Page = () => {
                 
                 <Paragraph>Hi there,
                  I am a final year Computer Science student 
-            studying at <Link href="https://google.com">Ryerson University</Link> in Toronto expecting to graduate in April 2022. I strive to further develop my skills in order to
+            studying at <Link href="https://en.m.wikipedia.org/wiki/Ryerson_University">Ryerson University</Link> in Toronto expecting to graduate in April 2022. I strive to further develop my skills in order to
             articulate my ideas through meaningful work as a Software Engineer.
                 I am currently seeking entry level opportunities with a company that I can 
-                grow and learn with. Please feel free to check out my <Link href="https://google.com">work</Link> or <Link href="https://google.com">reach out</Link> to me.</Paragraph>
+                grow and learn with. Please feel free to check out my work or reach out to me.</Paragraph>
                 
             </Section>
+
+            <Section delay={1}>
+                <LinkOverlay href="/work"><Heading as="h3" variant="section-title-2" textAlign="right">
+                        Check out my work &gt;
+                    </Heading></LinkOverlay>
+                    
+                    <Heading as="h3" variant="section-title-2" textAlign="right">
+                        Contact me &gt; 
+                    </Heading>
+            </Section>
+           
 
         </Container>
         </Layout>

@@ -42,8 +42,8 @@ export const ButtonBox = () => (
         </Box>
 )
 
-export const Meta = ({ children }) => (
-  <Badge colorScheme="green" mr={2}>
+export const Meta = ({ color, children }) => (
+  <Badge colorScheme={color} mr={2}>
     {children}
   </Badge>
 )

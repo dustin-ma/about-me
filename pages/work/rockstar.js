@@ -1,15 +1,14 @@
 
-import { Box, Button, Container, Badge, Link, List, ListItem, Heading, UnorderedList } from '@chakra-ui/react'
+import { Container, Badge, Link, List, ListItem, Heading, UnorderedList } from '@chakra-ui/react'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
-import { Title, WorkImage, Meta, ButtonBox } from '../../components/work'
-import P from '../../components/paragraph'
+import { Title, Meta, ButtonBox } from '../../components/work'
 import Layout from '../../components/layouts/article'
 import NextLink from 'next/link'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 
 
 const Work = () => (
-    <Layout title="Inkdrop">
+    <Layout title="Rockstar Music">
       <Container>
         <Title>
           Rockstar Music <Badge>2021 - 2022</Badge>
@@ -17,24 +16,24 @@ const Work = () => (
 
         <List ml={4} mb={4}>
         <ListItem>
-            <Meta>Position</Meta>
+            <Meta color="red">Position</Meta>
             <span>Software Engineer</span>
           </ListItem>
         <ListItem>
-            <Meta>Work Type</Meta>
+            <Meta color="orange">Work Type</Meta>
             <span>Internship, Co-op</span>
           </ListItem>
          
           <ListItem>
-            <Meta>Platform</Meta>
+            <Meta color="yellow">Platform</Meta>
             <span>Web-based</span>
           </ListItem>
           <ListItem>
-            <Meta>Stack</Meta>
+            <Meta color="green">Stack</Meta>
             <span>React, NodeJS, ExpressJS, MSSQL</span>
           </ListItem>
           <ListItem>
-            <Meta>Website</Meta>
+            <Meta color="teal">Website</Meta>
             <Link href="https://www.rockstarmusic.ca/">
               https://www.rockstarmusic.ca/ <ExternalLinkIcon mx="2px" />
             </Link>

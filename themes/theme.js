@@ -19,6 +19,14 @@ const components = {
                 textDecorationColor: '#525252',
                 marginTop: 3,
                 marginBottom: 4
+            },
+            'section-title-2': {
+                textDecoration: 'none',
+                fontSize: 16,
+                textUnderlineOffset: 6,
+                textDecorationColor: '#525252',
+                marginTop: 2,
+                marginBottom: 2
             }
         }
     },
