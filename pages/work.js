@@ -2,7 +2,7 @@ import { Container, Heading, SimpleGrid, Divider} from '@chakra-ui/react'
 import Section from '../components/section'
 import {WorkGridItem} from '../components/grid-item'
 import Layout from '../components/layouts/article'
-import {Meta} from '../components/work'
+import {Meta, MenuButtonBox} from '../components/work'
 // import tempImg from '../public/images/logo.png'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 
@@ -48,6 +48,8 @@ const Work = () => {
                 </Section>
             </SimpleGrid>
         </Container>
+
+        <MenuButtonBox/>
         </Layout>
     )
 }

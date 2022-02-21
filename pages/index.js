@@ -9,6 +9,7 @@ import { IoLogoGithub, IoLogoLinkedin, IoDocumentText, ChevronRightIcon } from '
 
 
 const Page = () => {
+    const colorMode = useColorModeValue('gray200', 'whiteAlpha.900')
     //<Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.300', 'whiteAlpha.200')} p={3} mb={6} align="left">
     return(
         <Layout>
@@ -77,13 +78,16 @@ const Page = () => {
             </Section>
 
             <Section delay={1}>
-                <LinkOverlay href="/work"><Heading as="h3" variant="section-title-2" textAlign="right">
-                        Check out my work &gt;
-                    </Heading></LinkOverlay>
-                    
-                    <Heading as="h3" variant="section-title-2" textAlign="right">
-                        Contact me &gt; 
-                    </Heading>
+            <NextLink href="/work" passHref>
+      <Link
+        p={2}
+        _target="blank"
+      >
+          <Heading as="h3" variant="section-title-2" textAlign="right" color={colorMode}>Check out my work &gt;</Heading>
+        
+      </Link>
+    </NextLink>
+            
             </Section>
            
 

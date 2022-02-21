@@ -25,21 +25,41 @@ export const WorkImage = ({ src, alt }) => (
 export const ButtonBox = () => (
     <Box align="center" my={4}>
         <NextLink href="/work" scroll={false}>
-            <Button mr={2} rightIcon={<IoDocumentText />} colorScheme="orange">
+            <Button size="sm" mr={2} rightIcon={<IoDocumentText />} colorScheme="orange">
               Resume
             </Button>
           </NextLink>
         <NextLink href="https://github.com/dustin-ma" target="_blank" scroll={false}>
-            <Button mr={2} rightIcon={<IoLogoGithub />} colorScheme="purple">
+            <Button size="sm" mr={2} rightIcon={<IoLogoGithub />} colorScheme="purple">
               Github
             </Button>
           </NextLink>
           <NextLink mr={2} href="/work" scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            <Button size="sm" rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Back
             </Button>
           </NextLink>
         </Box>
+)
+
+export const MenuButtonBox = () => (
+  <Box align="center" my={4}>
+      <NextLink href="/work" scroll={false}>
+          <Button size="sm" mr={2} rightIcon={<IoDocumentText />} colorScheme="orange">
+            Resume
+          </Button>
+        </NextLink>
+      <NextLink href="https://github.com/dustin-ma" target="_blank" scroll={false}>
+          <Button size="sm" mr={2} rightIcon={<IoLogoGithub />} colorScheme="purple">
+            Github
+          </Button>
+        </NextLink>
+        <NextLink mr={2} href="/" scroll={false}>
+          <Button size="sm" rightIcon={<ChevronRightIcon />} colorScheme="teal">
+            Home
+          </Button>
+        </NextLink>
+      </Box>
 )
 
 export const Meta = ({ color, children }) => (
