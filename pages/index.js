@@ -48,7 +48,7 @@ const Page = () => {
                         LinkedIn
                  </Button>
             </Link>
-            <Link href="https://drive.google.com/file/d/1etoU-ZTsKZ8ioLphrsAs9PpJZSgP-WiV/view?usp=sharing" target="_blank">   
+            <Link href="https://drive.google.com/file/d/1BGPv2WRzTwiyIzbOqOJd4oYDMgENKEqr/view?usp=sharing" target="_blank">   
                 <Button colorScheme='teal' leftIcon={<IoDocumentText />} size='sm' variant='ghost'>
                         Resume
                 </Button>
@@ -69,9 +69,10 @@ const Page = () => {
                 
                 
                 <Paragraph>Hi there,
-                 I am a final year Computer Science student 
-            studying at <Link href="https://en.m.wikipedia.org/wiki/Ryerson_University">Ryerson University</Link> in Toronto expecting to graduate in April 2022. I strive to further develop my skills in order to
-            articulate my ideas through meaningful work as a Software Engineer.
+                I am an aspiring software engineer who
+                recently graduated at <Link href="https://en.m.wikipedia.org/wiki/Ryerson_University">Toronto Metropolitan University</Link> (formally known as Ryerson University).
+                My current goal is to further develop my skills in order to
+                articulate my ideas through meaningful work as a Software Engineer.
                 I am currently seeking entry level opportunities with a company that I can 
                 grow and learn with. Please feel free to check out my work or reach out to me.</Paragraph>
                 
