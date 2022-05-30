@@ -70,7 +70,7 @@ const Page = () => {
                 
                 <Paragraph>Hi there,
                 I am an aspiring software engineer who
-                recently graduated at <Link href="https://en.m.wikipedia.org/wiki/Ryerson_University">Toronto Metropolitan University</Link> (formally known as Ryerson University).
+                recently graduated from <Link href="https://en.m.wikipedia.org/wiki/Ryerson_University">Toronto Metropolitan University</Link> (formally known as Ryerson University).
                 My current goal is to further develop my skills in order to
                 articulate my ideas through meaningful work as a Software Engineer.
                 I am currently seeking entry level opportunities with a company that I can 
